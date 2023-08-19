@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import FirstPage from './modules/FirstPage';
-// import Trial from './modules/Trial';
+import SecondPage from './modules/SecondPage';
+import Navbar from './modules/Navbar';
 function App() {
   return (
     // <div className="App">
@@ -21,8 +22,9 @@ function App() {
     //   </header>
     // </div>
     <div>
+      <Navbar />
       <FirstPage />
-      {/* <Trial /> */}
+      <SecondPage />
     </div>
   );
 }

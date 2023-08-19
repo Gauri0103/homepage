@@ -6,16 +6,17 @@ body {
 }
 
 .search {
-    width: 550%;
+    width: 750%;
     position: relative;
     display: flex;
+    
 }
 
 .searchTerm {
     width: 100%;
     border: 3px solid #00B4CC;
     border-right: none;
-    padding: 5px;
+    padding: 15px;
     height: 20px;
     border-radius: 5px 0 0 5px;
     outline: none;
@@ -40,9 +41,19 @@ body {
 
 /*Resize the wrap to see the search bar change!*/
 .wrap {
-    width: 30%;
+    width: 20%;
     position: absolute;
-    top: 120%;
-    left:-15%;
+    top: 140%;
+    left:-50%;
     transform: translate(-50%, -50%);
+}
+
+.heading-1{
+    font-size: 40px;
+        /* set the font size of the header to 18 pixels */
+        /* height: 3em; */
+}
+
+.heading-2{
+    font-size: 27px;
 }

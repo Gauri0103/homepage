@@ -32,9 +32,9 @@ function FirstPage() {
           transform: "translate(-50%, -50%)",
         }}
       >
-        <h2>Heading</h2>
-        <h1> Definition of the heading </h1>
-        <div class="wrap">
+        <h2 className="heading-2">More than 63 ads in 6 categories</h2>
+        <h1 className="heading-1"> List or find anything, literally</h1>
+        <div style={{ margin: 20 }} class="wrap">
           <div class="search">
             <input
               type="text"
@@ -54,8 +54,7 @@ function FirstPage() {
           top: "75%",
           transform: "translateX(-50%)",
         }}
-      
-        >
+      >
         <div style={{ display: "flex", gap: "10px" }}>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/640px-SNice.svg.png"
